@@ -136,7 +136,7 @@ final class Data extends AbstractHelper
             $itemPrice = $this->roundToTwoDecimal($item->getPrice() - $item->getDiscountAmount());
             $data[]    = [
                 'qty'    => $qty,
-                'name'   => $item->getName(),
+                'name'   => $item->getProduct()->getName(),
                 'sku'    => $item->getSku(),
                 'amount' => $itemPrice * $qty,
                 'type'   => $item->getProductType(),
