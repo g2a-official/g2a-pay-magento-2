@@ -132,11 +132,11 @@ final class Data extends AbstractHelper
         /** @var \Magento\Sales\Model\Order\Item $item */
         foreach ($items as $item) {
             $qty       = $item->getQtyOrdered();
-            $productId = $item->getId();
+            $productId = $item->getProductId();
             $itemPrice = $this->roundToTwoDecimal($item->getPrice() - $item->getDiscountAmount());
             $data[]    = [
                 'qty'    => $qty,
-                'name'   => $item->getName(),
+                'name'   => $item->getProduct()->getName(),
                 'sku'    => $item->getSku(),
                 'amount' => $itemPrice * $qty,
                 'type'   => $item->getProductType(),
