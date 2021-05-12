@@ -1,4 +1,6 @@
-# G2A Pay module for Magento 2
+# ⚠ This repository is now DEPRECATED and will be deleted after 1st of August 2021. We recommend to use [Zen](https://www.zen.com/) in new projects.
+
+## G2A Pay module for Magento 2
 
 Magento  - a leading open-source eCommerce platform written in PHP, Magento supports open commerce innovation and empowers amazing omnichannel experiences from desktops to mobiles, providing the world’s biggest retailers, brands and branded manufacturers with a solution that matches their success.
 
